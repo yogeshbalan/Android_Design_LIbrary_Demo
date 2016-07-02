@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_snack_bar"
+            android:icon="@drawable/ic_dns_grey"
+            android:title="SnackBar" />
+        <item
+            android:id="@+id/nav_coordinator"
+            android:icon="@drawable/ic_donut_small_grey"
+            android:title="Coordinator" />
+        <item
+            android:id="@+id/nav_tabbed"
+            android:icon="@drawable/ic_chrome_reader_mode_grey"
+            android:title="Tabbed" />
+        <item
+            android:id="@+id/nav_coordinator_custom"
+            android:icon="@drawable/ic_bug_report_grey"
+            android:title="CoordinatorCustom" />
+        <item
+            android:id="@+id/nav_collapse"
+            android:icon="@drawable/ic_dashboard_grey"
+            android:title="Collapsible" />
+        <item
+            android:id="@+id/nav_bottom_sheet"
+            android:icon="@drawable/ic_chrome_reader_mode_grey"
+            android:title="BottomSheet" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_card_giftcard_grey"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_settings_grey"
+                android:title="Setting" />
+        </menu>
+    </item>
+
+</menu>
